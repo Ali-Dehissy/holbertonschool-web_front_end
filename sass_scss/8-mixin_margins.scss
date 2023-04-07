@@ -1,0 +1,11 @@
+/* Assigning margin pixels with mixin */
+@mixin setmargin($margin) {
+  margin-left: $margin;
+  margin-right: $margin;
+}
+body {
+  @include setmargin(10px);
+}
+div {
+    @include setmargin(15px);
+  }
