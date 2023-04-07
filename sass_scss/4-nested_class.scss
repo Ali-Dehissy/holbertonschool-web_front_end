@@ -1,0 +1,11 @@
+/*assigns the text color #3D3D3D*/
+$textbodycolor: #3D3D3D;
+$textcolor: #FF0000;
+
+body {
+  color: $textbodycolor;
+  .red{
+    color: $textcolor;
+  }
+
+}
