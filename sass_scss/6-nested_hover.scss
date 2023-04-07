@@ -1,0 +1,10 @@
+/* Assigning the text color and hover */
+$textcolor: #FF0000;
+$hovercolor: #00FF00;
+
+button {
+  color: $textcolor;
+   &:hover{
+    color: $hovercolor;
+  }
+}
