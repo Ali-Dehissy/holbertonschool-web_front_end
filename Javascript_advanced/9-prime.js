@@ -17,4 +17,4 @@ function countPrimeNumbers() {
 let x = performance.now();
 countPrimeNumbers();
 let y = performance.now();
-console.log("Execution time of printing countPrimeNumbers was " + (t1 - t0) + " milliseconds.");
+console.log("Execution time of printing countPrimeNumbers was " + (y - x) + " milliseconds.");
