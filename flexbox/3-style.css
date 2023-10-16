@@ -179,16 +179,19 @@
   
   /* Grid
       ============================= */
-  
+
+		.row {
+			display: flex;
+		}
+
   ul.row {
     margin: 0;
     padding: 0;
     list-style: none;
   }
   
- 
+  
   [class*='col-'] {
-    
     padding: 0.5rem;
   }
   
@@ -198,10 +201,6 @@
   
   .col-1-2 {
     width: 50%;
-  }
-
-  .row {
-      display: flex;
   }
   
   /* Navbar
@@ -261,7 +260,7 @@
     padding: var(--header-padding);
          position: relative;
          z-index: 3;
-         background: transparent !important;
+         background: transparent;
   }
   
   .header-logo {
@@ -373,25 +372,21 @@
     padding: 10rem 40rem 2rem 0;
   }
   
-  /* Section Latest news 
-      ============================= */
-
-  .section-latest-news .row {
-    flex-direction: row-reverse;
-  }
-
-  /* Section SERVICES 
-      ============================= */
-  .section-services .row {
-      flex-wrap: wrap;
-  }
+		/* Section Latest news ============================= */
+		.section-latest-news .row {
+			flex-direction: row-reverse;
+		}
 
 
-  /*** 4. CARD ***/
-  
+		/* Section SERVICES ============================= */
+
+		.section-services .row {
+			flex-wrap: wrap;
+		}
+
+  /*** 4. CARD ***/  
   /* Card (all styles)
       ============================= */
-  
   .card-category {
     color: var(--color-primary);
   }
