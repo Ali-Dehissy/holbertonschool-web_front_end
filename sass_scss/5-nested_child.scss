@@ -1,10 +1,11 @@
-/* Assigning the text color #3D3D3D */
-$textbodycolor: #3D3D3D;
-$textcolor: #FF0000;
+/*assigns the text color #3D3D3D*/
+$text-body-color: #3D3D3D;
+$text-color: #FF0000;
 
 body {
-  color: $textbodycolor;
-  >.red{
-    color: $textcolor;
+  color: $text-body-color;
+   >.red{
+    color: $text-color;
   }
-}
+
+} 
