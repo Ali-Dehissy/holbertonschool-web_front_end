@@ -1,5 +1,7 @@
 /* A class for each name in the list $list-names and assigned with the background image */
 @import "11-photos.scss";
+
+
 @each $name in $list-names {
     .#{ $name } {
       background-image: url('#{ $name }.jpg') no-repeat;
